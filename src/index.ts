@@ -1,4 +1,13 @@
-const awesome = "It's going to be awesomeeeee!"
+let awesome = "It's going to be awesomeeeee!"
+
+// Most of the time, it is not needed to declare a type on a primitive because typescript is smart enough to infer the type being used. 
+
+awesome.toLocaleLowerCase()
+
+let value = 1
+
+let isCool = true
+
 
 document.getElementsByTagName('p')[0].innerText = awesome
 
