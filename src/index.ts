@@ -41,6 +41,10 @@ console.log(finalPrice)
 
 // Optional parameters must be declared after required parameters
 
+// Additionally, if a default value is added to a parameter, it becomes an optional parameter.
+
+// discountPercentage: number = 50
+
 
 
 export {};
