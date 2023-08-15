@@ -30,3 +30,9 @@ giveToCharity?: boolean
 Optional parameters must be declared after required parameters
 
 Additionally, if a default value is added to a parameter, it becomes an optional parameter.
+
+For example:
+
+function applyDiscount(parameter1:type=defaultVal1, parameter2:type=defaultVal2)
+
+function applyDiscount(price: number, discount: number = 0.05)
